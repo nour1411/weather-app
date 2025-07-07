@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link rel="stylesheet" href="CSS/bootstrap.min.css"/>
+  <link rel="stylesheet" href="CSS/style.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand text-white h4" href="#"><img src="images/logo.png" alt=""> weather</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 ms-auto pe-5">
+        <li class="nav-item me-3"><a class="nav-link text-white" href="#">Home</a></li>
+        <li class="nav-item me-3"><a class="nav-link text-white" href="#">News</a></li>
+        <li class="nav-item me-3"><a class="nav-link text-white" href="#">Live camera</a></li>
+        <li class="nav-item me-3"><a class="nav-link text-white" href="#">Photos</a></li>
+        <li class="nav-item me-3"><a class="nav-link text-white" href="#">Contacts</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="body">
+  <div class="container py-5">
+    <div class="w-75 mx-auto py-5 position-relative">
+      <input type="text" id="searchInput" class="form-control p-3" placeholder="Find your location...."/>
+      <button class="position-absolute btn-find">Find</button>
+    </div>
+    <div class="row">
+    
+      <div class="col-lg-4">
+        <div class="inner">
+          <div class="card card-style">
+            <div class="card-header card-header-style d-flex justify-content-between">
+              <span></span>
+              <span></span>
+            </div>
+            <div class="p-5">
+              <span></span>
+              <div class="d-flex justify-content-between">
+                <h1 class="h1-style"></h1>
+                <div class="sun-icon text-center"><img src="" alt=""></div>
+              </div>
+              <span></span>
+            </div>
+            <div class="d-flex p-2">
+              <span class="me-2"><img src="images/icon-umberella.png" alt=""> </span>
+              <span class="me-2"><img src="images/icon-wind.png" alt=""> </span>
+              <span class="me-2"><img src="images/icon-compass.png" alt=""> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-lg-4">
+        <div class="inner">
+          <div class="card card-style-custom">
+            <div class="card-header card-header-style-custom  d-flex justify-content-between">
+              <span></span>
+              <span></span>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-between p-3">
+              <span></span>
+              <h1></h1>
+              <div class="sun-icon text-center"><img src="" alt=""></div>
+              <span></span>
+            </div>
+            <div class="d-flex p-2">
+              <span class="me-2"><img src="images/icon-umberella.png" alt=""> </span>
+              <span class="me-2"><img src="images/icon-wind.png" alt=""> </span>
+              <span class="me-2"><img src="images/icon-compass.png" alt=""> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-lg-4">
+        <div class="inner">
+          <div class="card card-style">
+            <div class="card-header card-header-style  d-flex justify-content-between">
+              <span></span>
+              <span></span>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-between p-3">
+              <span></span>
+              <h1></h1>
+              <div class="sun-icon text-center"><img src="" alt=""></div>
+              <span></span>
+            </div>
+            <div class="d-flex p-2">
+              <span class="me-2"><img src="images/icon-umberella.png" alt=""> </span>
+              <span class="me-2"><img src="images/icon-wind.png" alt=""> </span>
+              <span class="me-2"><img src="images/icon-compass.png" alt=""> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="">
+          <div class="py-5 position-relative">
+            <input type="text" class="form-control p-3" placeholder="Enter your email for subscribe..."/>
+            <button class="position-absolute btn-find">Subscribe</button>
+          </div>
+        </div>
+        <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+      <div class="col-lg-4">
+        <div class="social-icon d-flex py-5 justify-content-end">
+          <i class="fa-brands fa-facebook me-1 rounded-circle p-2"></i>
+          <i class="fa-brands fa-twitter me-1 rounded-circle p-2"></i>
+          <i class="fa-brands fa-google me-1 rounded-circle p-2"></i>
+          <i class="fa-brands fa-pinterest me-1 rounded-circle p-2"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="JS/bootstrap.bundle.min.js"></script>
+<script src="JS/main.js"></script>
+</body>
+</html>
